@@ -1,7 +1,17 @@
+
+function formatedMinutes() {
+    const date = new Date()
+    if (date.getMinutes() < 10) {
+        return "0" + date.getMinutes()
+    } else {
+        return date.getMinutes()
+    }
+}
+
 function setTime() {
+    const date = new Date()
     function getTime() {
-        const date = new Date()
-        return `${date.getHours()}:${date.getMinutes()}`
+        return `${date.getHours()}:${formatedMinutes()}`
     }
     const timeHolder = document.querySelector('p')
     timeHolder.innerText = getTime()

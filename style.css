@@ -24,7 +24,7 @@ body {
 
 p {
     background: linear-gradient(135deg, rgb(77, 77, 77), black);
-    outline: 2.5px solid rgba(255, 255, 255, 0.25);
+    border: 2.5px solid rgba(255, 255, 255, 0.25);
     color: rgba(255, 255, 255, 0.25);
     justify-content: center;
     align-items: center;
