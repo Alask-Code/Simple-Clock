@@ -3,7 +3,7 @@
     padding: 0;
     border: none;
     outline: none;
-    font-size: 2rem;
+    font-size: 10vw;
     font-weight: 100;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -22,7 +22,18 @@ body {
     justify-content: center;
 }
 
-p {
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.clock {
+    animation: fadeIn 1.5s cubic-bezier(0.215, 0.610, 0.355, 1);
     background: linear-gradient(135deg, rgb(77, 77, 77), black);
     border: 2.5px solid rgba(255, 255, 255, 0.25);
     color: rgba(255, 255, 255, 0.25);
