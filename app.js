@@ -1,8 +1,10 @@
-import { simpleClock } from './scripts/simpleClock.js'
+import { simpleClock } from './scripts/simpleClock.js';
+const { updatePlaceholder } = simpleClock;
 
 window.addEventListener('DOMContentLoaded', () => {
-    simpleClock.updatePlaceholder(simpleClock.formatedTime())
-    setInterval(() => {
-        simpleClock.updatePlaceholder(simpleClock.formatedTime())
-    }, 1000)
-})
+  updatePlaceholder(simpleClock.formatedTime());
+
+  setInterval(() => {
+    updatePlaceholder(simpleClock.formatedTime());
+  }, 1000);
+});
