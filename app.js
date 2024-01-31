@@ -1,8 +1,8 @@
-import { moonClock } from './scripts/moonClock.js'
+import { simpleClock } from './scripts/simpleClock.js'
 
 window.addEventListener('DOMContentLoaded', () => {
-    moonClock.updatePlaceholder(moonClock.formatedTime())
+    simpleClock.updatePlaceholder(simpleClock.formatedTime())
     setInterval(() => {
-        moonClock.updatePlaceholder(moonClock.formatedTime())
+        simpleClock.updatePlaceholder(simpleClock.formatedTime())
     }, 1000)
 })

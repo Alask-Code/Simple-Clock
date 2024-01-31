@@ -1,4 +1,4 @@
-export const moonClock = {
+export const simpleClock = {
     formatedTime: function () {
         const date = new Date()
         let hours = date.getHours()

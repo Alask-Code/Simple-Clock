@@ -61,8 +61,8 @@ body {
 }
 
 .clock {
-  width: 6rem;
-  height: 6rem;
+  width: 4.5rem;
+  height: 4.5rem;
   display: flex;
   border-radius: 50%;
   align-items: center;

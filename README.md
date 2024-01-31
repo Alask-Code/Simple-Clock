@@ -1,2 +1,4 @@
-# Moon Clock
-Simple Clock that provides an simple API.
+# Simple Clock
+It's a clock that provides an simple API.
+
+Use as new tab screen.
