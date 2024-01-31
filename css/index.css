@@ -52,11 +52,6 @@ body {
   background: var(--bkg-gradient);
 }
 
-.city-timezone {
-  color: var(--accent-color);
-  font-size: 10pt;
-}
-
 .clock {
   width: 4.5rem;
   height: 4.5rem;
