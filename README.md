@@ -4,6 +4,7 @@ It's a clock that provides an simple API.
 ## Features:
 - ✔️ Simple Clock, as Usual.
 - ✔️ System Integrated Dark Mode
+- ✔️ ESLint Integrated (@electron-internal)
 
 ## Coming Soon
 - 🚫 A Simple Search Bar
