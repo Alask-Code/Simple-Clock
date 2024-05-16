@@ -7,6 +7,7 @@ It's a clock that provides an simple API.
 - ✔️ ESLint Integrated (@electron-internal)
 
 ## Coming Soon
+- 🚫 Theme Redesign
 - 🚫 A Simple Search Bar
   - Search to Google or Bing.
 - Multiple Clocks and Timezones.
